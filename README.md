@@ -21,6 +21,6 @@
 
 * [Урок_12](https://github.com/frauGamanmM/frauGamanmM.github.io "домашнее задание-12") - Хостинг от GitHub. Все выгруженные домашки.
 
-* [Урок_13](https://fraugamanmm.github.io/Lesson_13/ "домашнее задание-13") - Адаптивная верстка. Верстка формы в стиле Pixel Perfect.
+* [Урок_13](https://fraugamanmm.github.io/Lesson_13/Lesson_13/ "домашнее задание-13") - Адаптивная верстка. Верстка формы в стиле Pixel Perfect.
 
 * [Урок_14](https://fraugamanmm.github.io/Lesson_14/ "домашнее задание-14") - Практика часть 1. Подготовка файлов. Верстка шапки сайта.
