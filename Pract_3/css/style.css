@@ -191,3 +191,8 @@ section {
     text-align: center;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .main-content h1 {
+    font-size: 2.2rem;
+  }
+}
