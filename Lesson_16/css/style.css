@@ -1,0 +1,6 @@
+.box {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	margin-left: -300px;
+}
