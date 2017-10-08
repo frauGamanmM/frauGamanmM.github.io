@@ -1,0 +1,119 @@
+body {
+  background: url(../img/bg.png) no-repeat center center fixed;
+}
+button {
+  outline: none;
+}
+.mymod-btn {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 50%;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -15px;
+}
+.mymod-btn:focus {
+  outline: none;
+}
+.mymod {
+  display: none;
+  position: fixed;
+  width: 670px;
+  height: 500px;
+  left: 50%;
+  margin-left: -335px;
+  top: 50%;
+  margin-top: -250px;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.mymod-content {
+  position: fixed;
+  width: 344px;
+  height: 188px;
+  left: 50%;
+  margin-left: -172px;
+  top: 50%;
+  margin-top: -94px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  background: url(../img/bg-mod.jpg);
+  z-index: 9;
+}
+.mymod-header {
+  width: 334px;
+  height: 34px;
+  margin-top: -10px;
+  border-radius: 5px 5px 0 0;
+  padding-top: 0px;
+  font-family: sans-serif;
+  color: #323f44;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  background: -webkit-gradient(linear, left bottom, left top, from(#121212), color-stop(50%, #000000), color-stop(51%, #262727), to(#858585));
+  background: linear-gradient(0deg, #121212 0%, #000000 50%, #262727 51%, #858585 100%);
+}
+.mymod-header .mymod-close {
+  position: absolute;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: 300px;
+  margin-top: -5px;
+}
+.mymod .body {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color: #7c7c7c;
+}
+.mymod-footer {
+  margin-top: 50px;
+}
+.mymod-footer .btn-1 {
+  display: inline-block;
+  width: 97px;
+  height: 33px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #81aa3c;
+  background-color: #b2d478;
+  margin-left: 63px;
+}
+.mymod-footer .btn-1:hover {
+  background: #c8e09f;
+}
+.mymod-footer .btn-2 {
+  display: inline-block;
+  width: 97px;
+  height: 33px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 12px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d38e8e;
+  background-color: #f4afaf;
+}
+.mymod-footer .btn-2:hover {
+  background: #fadcdc;
+}
