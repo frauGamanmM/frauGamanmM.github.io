@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic');
+.first-head {
+  margin-top: 60px;
+  text-align: center;
+}
+.first-head .answers {
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  color: #0bbaf0;
+  font-size: 25px;
+}
+.first-head .f-head {
+  font-weight: 700;
+  font-size: 36px;
+}
+hr {
+  width: 110px;
+  border: none;
+  color: grey;
+  background-color: grey;
+  height: 1px;
+  text-align: center;
+  opacity: 0.5;
+}
+.box {
+  width: 100%;
+  height: 700px;
+  background: url(../img/bg.png);
+}
+.box .all-answers {
+  position: relative;
+  display: inline-block;
+  width: 860px;
+  left: 50%;
+  margin-left: -430px;
+  margin-top: 40px;
+}
+.box #head-one,
+.box #head-two,
+.box #head-three,
+.box #head-four,
+.box #head-five {
+  width: 860px;
+  height: 54px;
+  text-align: center;
+  background-color: #0bbaf0;
+}
+.box .head-text {
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+.box .body-text {
+  font-family: 'Ubuntu', sans-serif;
+  color: #535353;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.box a {
+  text-decoration: none;
+}
