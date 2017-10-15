@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
+@font-face {
+  font-family: 'Playlist';
+  src: url('../fonts/Playlist-Script.eot');
+  src: url('../fonts/Playlist-Script.eot?#iefix') format('embedded-opentype'), url('../fonts/Playlist-Script.woff2') format('woff2'), url('../fonts/Playlist-Script.woff') format('woff'), url('../fonts/Playlist-Script.ttf') format('truetype'), url('../fonts/Playlist-Script.svg#Playlist-Script') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a {
+  color: #aa8464;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+/* Блок навигации */
+.navigation {
+  position: fixed;
+  width: 100%;
+  height: 7rem;
+  top: 0;
+  background-color: #cff6db;
+  opacity: 0.9;
+  z-index: 999;
+}
+.navigation .logo {
+  display: inline-block;
+}
+.navigation .logo-main {
+  display: inline-block;
+  width: auto;
+  height: 6rem;
+  margin-top: 0.5rem;
+}
+.navigation .logo-text {
+  display: inline-block;
+  width: auto;
+  height: 6rem;
+  margin-top: 0.5rem;
+  height: 4rem;
+  margin-left: 2rem;
+}
+.navigation ul {
+  display: inline-block;
+  width: 75rem;
+  height: 7rem;
+  vertical-align: middle;
+}
+.navigation ul li {
+  display: inline-block;
+  width: 10rem;
+  height: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  vertical-align: top;
+  border-radius: 20%;
+}
+.navigation ul li a {
+  display: block;
+  width: 10rem;
+  height: 4rem;
+  -webkit-box-shadow: 8px 5px 37px -5px #000000;
+          box-shadow: 8px 5px 37px -5px #000000;
+  border-radius: 5%;
+}
+/* Главная страница */
+.main-bg {
+  height: 100vh;
+  margin-top: 7rem;
+}
+.main-bg-text {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-top: 11rem;
+  font-family: 'Playlist', sans-serif;
+  font-size: 10rem;
+  text-align: center;
+}
+.main-bg-text_small {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-top: 11rem;
+  font-family: 'Playlist', sans-serif;
+  font-size: 10rem;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 2rem;
+}
